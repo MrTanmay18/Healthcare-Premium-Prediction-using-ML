@@ -21,8 +21,8 @@ This project builds a predictive model to estimate the annual premium amount usi
 ### 🔹 Model Strategy
 Two separate models were trained:
 
-- **Young Model** → Age < 30
-- **Rest Model** → Age ≥ 30
+- **Young Model** → Age < 25
+- **Rest Model** → Age ≥ 25
 
 This improves generalization and prediction accuracy by capturing age-specific risk behavior.
 
