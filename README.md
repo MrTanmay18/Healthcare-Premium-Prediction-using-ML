@@ -119,11 +119,14 @@ streamlit run main.py
 
 ## 🚀 Future Improvements
 
-- Add SHAP feature importance explanation  
-- Deploy on Streamlit Cloud  
-- Add API version using FastAPI  
-- Add model comparison dashboard  
-- Improve UI animations  
+- Add SHAP-based feature importance explanation
+- Implement model performance comparison dashboard
+- Add prediction confidence interval
+- Integrate user authentication system
+- Connect database for storing prediction history
+- Add API version using FastAPI for production use
+- Implement CI/CD pipeline for automated deployment
+- Improve UI animations and user experience 
 
 ---
 
