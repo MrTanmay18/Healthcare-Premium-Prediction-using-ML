@@ -74,19 +74,22 @@ The project includes a fully interactive web application where users can:
 ---
 
 ## 🏗️ Project Structure
+
+```
 Healthcare-Premium-Prediction-using-ML/
 │
 ├── app/
-│ ├── main.py
-│ └── artifacts/
-│ ├── model_young.joblib
-│ ├── model_rest.joblib
-│ ├── scaler_young.joblib
-│ └── scaler_rest.joblib
+│   ├── main.py
+│   └── artifacts/
+│       ├── model_young.joblib
+│       ├── model_rest.joblib
+│       ├── scaler_young.joblib
+│       └── scaler_rest.joblib
 │
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 
 ---
@@ -98,20 +101,34 @@ Healthcare-Premium-Prediction-using-ML/
 ```bash
 git clone https://github.com/yourusername/Healthcare-Premium-Prediction-using-ML.git
 cd Healthcare-Premium-Prediction-using-ML/app
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run Streamlit App
+### 3️⃣ Run Streamlit App
+
+```bash
 streamlit run main.py
+```
 
-📈 Future Improvements
-- Add SHAP feature importance explanation
-- Deploy on Streamlit Cloud
-- Add API version using FastAPI
-- Add model comparison dashboard
-- Improve UI animations
+---
 
-👨‍💻 Author
-Tanmay
+## 🚀 Future Improvements
+
+- Add SHAP feature importance explanation  
+- Deploy on Streamlit Cloud  
+- Add API version using FastAPI  
+- Add model comparison dashboard  
+- Improve UI animations  
+
+---
+
+## 👨‍💻 Author
+
+**Tanmay**  
 Data Enthusiast
+
